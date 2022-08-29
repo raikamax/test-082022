@@ -1,0 +1,100 @@
+.cardsPage{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #063082;
+    
+    &__name{
+        margin-right: 20%;
+        align-self: flex-end;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    
+    &__items{
+        margin-top: 40px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        max-width: 1840px;
+        min-height: 350px;
+        
+        &-item{
+            margin: 0 15px;
+            margin-bottom: 15px;
+            border: solid 1px #fff;
+            border-radius: 15px;
+            padding: 15px;
+            width: 200px;
+            height: 335px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            &--img{
+                width: 100%;
+                height: auto;
+            }
+            &--name{
+                height: 42px;
+                margin-top: 15px;
+                color: white;
+            }
+            &--desc{
+                margin-top: 15px;
+                color: white;
+            }
+            &--point{
+                margin-top: 20px;
+                color: white;
+                font-weight: bold;
+                font-size: 20px;
+            }
+        }
+    }
+    
+    &__buttonLoad{
+        margin-top: 35px;
+        color: #fff;
+        background-color: #000;
+        width: 200px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: all ease-in-out 0.3s;
+        
+        &:hover{
+            background-color: #fff;
+            color: #000;
+        }
+    }
+    
+    &__buttonShuffle{
+        margin-top: 35px;
+        color: #fff;
+        background-color: #000;
+        width: 200px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: all ease-in-out 0.3s;
+        
+        &:hover{
+            background-color: #fff;
+            color: #000;
+        }
+    }
+}
